@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* transition-duration: 0.5s !important; */
+}
+
+body{
+  overflow: hidden;
+}
+.ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner, .ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner, .ant-picker-cell-in-view.ant-picker-cell-range-end .ant-picker-cell-inner {
+  color: #fff;
+  background: #72a6bf !important;
+}
+span.ant-radio-inner{
+  height: 21px;
+  width: 21px;
+  top: 3px;
+}
+@media only screen and (max-width:610px){
+  span.ant-radio-inner{
+    height: 26px;
+    width: 26px;
+    top: 3px;
+  }
+
+}
+button{
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+button:hover{
+  opacity: 0.8;
+}
+
+div.x{
+  cursor: pointer;
+}
+/* img{
+  width: 100%;
+} */
